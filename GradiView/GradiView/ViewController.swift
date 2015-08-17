@@ -16,7 +16,8 @@ let grav = GradientView(frame: CGRectMake(0, 20, 320, 2.0))
         view.addSubview(grav)
         grav.performAnimation()
         grav.progress = 1.0
-        grav.colorsDirection = Direction.horizontal
+        grav.speed = 0.1
+        grav.colorsDirection = .horizontal
     }
 
 }

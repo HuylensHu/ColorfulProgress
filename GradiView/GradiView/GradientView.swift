@@ -40,13 +40,15 @@ enum Direction{
     private var endPoint:CGPoint = CGPointMake(1.0, 0.0)
     @IBInspectable var  progress:CGFloat = 0 {
         didSet{
-           progress = min(1.0, fabs(progress))
+            progress = min(1.0, fabs(progress))
             setNeedsLayout()
         }
     }
+    /** from 0 to 1 */
     @IBInspectable var speed:CGFloat = 1.0{
         didSet{
-            
+            speed = max(0.0, min(1.0, fabs(speed)))
+            setNeedsLayout()
         }
     
     }
@@ -87,7 +89,12 @@ enum Direction{
         self.layerColors.insert(lastColor, atIndex: 0)
         let animation = CABasicAnimation(keyPath: "colors")
         animation.toValue = self.layerColors
-        animation.duration = 0.5
+        if 0 == speed {
+            animation.duration = CFTimeInterval(Float.infinity)
+        }
+        else {
+            animation.duration = CFTimeInterval(0.01/speed)
+        }
         animation.removedOnCompletion = false
         animation.fillMode = "forwards"
         animation.delegate = self
