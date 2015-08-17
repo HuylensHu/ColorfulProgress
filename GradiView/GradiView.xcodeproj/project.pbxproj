@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEBDA7F31B816916004E3EAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBDA7F21B816916004E3EAB /* AppDelegate.swift */; };
+		BEBDA7F51B816916004E3EAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBDA7F41B816916004E3EAB /* ViewController.swift */; };
+		BEBDA7F81B816916004E3EAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEBDA7F61B816916004E3EAB /* Main.storyboard */; };
+		BEBDA7FA1B816916004E3EAB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEBDA7F91B816916004E3EAB /* Images.xcassets */; };
+		BEBDA7FD1B816916004E3EAB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEBDA7FB1B816916004E3EAB /* LaunchScreen.xib */; };
+		BEBDA8091B816916004E3EAB /* GradiViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBDA8081B816916004E3EAB /* GradiViewTests.swift */; };
+		BEBDA8131B816939004E3EAB /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBDA8121B816939004E3EAB /* GradientView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEBDA8031B816916004E3EAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEBDA7E51B816915004E3EAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEBDA7EC1B816915004E3EAB;
+			remoteInfo = GradiView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BEBDA7ED1B816916004E3EAB /* GradiView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GradiView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEBDA7F11B816916004E3EAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEBDA7F21B816916004E3EAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEBDA7F41B816916004E3EAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEBDA7F71B816916004E3EAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEBDA7F91B816916004E3EAB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BEBDA7FC1B816916004E3EAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BEBDA8021B816916004E3EAB /* GradiViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GradiViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEBDA8071B816916004E3EAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEBDA8081B816916004E3EAB /* GradiViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradiViewTests.swift; sourceTree = "<group>"; };
+		BEBDA8121B816939004E3EAB /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEBDA7EA1B816915004E3EAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEBDA7FF1B816916004E3EAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEBDA7E41B816915004E3EAB = {
+			isa = PBXGroup;
+			children = (
+				BEBDA7EF1B816916004E3EAB /* GradiView */,
+				BEBDA8051B816916004E3EAB /* GradiViewTests */,
+				BEBDA7EE1B816916004E3EAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEBDA7EE1B816916004E3EAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEBDA7ED1B816916004E3EAB /* GradiView.app */,
+				BEBDA8021B816916004E3EAB /* GradiViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEBDA7EF1B816916004E3EAB /* GradiView */ = {
+			isa = PBXGroup;
+			children = (
+				BEBDA7F21B816916004E3EAB /* AppDelegate.swift */,
+				BEBDA7F41B816916004E3EAB /* ViewController.swift */,
+				BEBDA8121B816939004E3EAB /* GradientView.swift */,
+				BEBDA7F61B816916004E3EAB /* Main.storyboard */,
+				BEBDA7F91B816916004E3EAB /* Images.xcassets */,
+				BEBDA7FB1B816916004E3EAB /* LaunchScreen.xib */,
+				BEBDA7F01B816916004E3EAB /* Supporting Files */,
+			);
+			path = GradiView;
+			sourceTree = "<group>";
+		};
+		BEBDA7F01B816916004E3EAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEBDA7F11B816916004E3EAB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BEBDA8051B816916004E3EAB /* GradiViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEBDA8081B816916004E3EAB /* GradiViewTests.swift */,
+				BEBDA8061B816916004E3EAB /* Supporting Files */,
+			);
+			path = GradiViewTests;
+			sourceTree = "<group>";
+		};
+		BEBDA8061B816916004E3EAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEBDA8071B816916004E3EAB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEBDA7EC1B816915004E3EAB /* GradiView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEBDA80C1B816916004E3EAB /* Build configuration list for PBXNativeTarget "GradiView" */;
+			buildPhases = (
+				BEBDA7E91B816915004E3EAB /* Sources */,
+				BEBDA7EA1B816915004E3EAB /* Frameworks */,
+				BEBDA7EB1B816915004E3EAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GradiView;
+			productName = GradiView;
+			productReference = BEBDA7ED1B816916004E3EAB /* GradiView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEBDA8011B816916004E3EAB /* GradiViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEBDA80F1B816916004E3EAB /* Build configuration list for PBXNativeTarget "GradiViewTests" */;
+			buildPhases = (
+				BEBDA7FE1B816916004E3EAB /* Sources */,
+				BEBDA7FF1B816916004E3EAB /* Frameworks */,
+				BEBDA8001B816916004E3EAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEBDA8041B816916004E3EAB /* PBXTargetDependency */,
+			);
+			name = GradiViewTests;
+			productName = GradiViewTests;
+			productReference = BEBDA8021B816916004E3EAB /* GradiViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEBDA7E51B816915004E3EAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Hufei;
+				TargetAttributes = {
+					BEBDA7EC1B816915004E3EAB = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					BEBDA8011B816916004E3EAB = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = BEBDA7EC1B816915004E3EAB;
+					};
+				};
+			};
+			buildConfigurationList = BEBDA7E81B816915004E3EAB /* Build configuration list for PBXProject "GradiView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEBDA7E41B816915004E3EAB;
+			productRefGroup = BEBDA7EE1B816916004E3EAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEBDA7EC1B816915004E3EAB /* GradiView */,
+				BEBDA8011B816916004E3EAB /* GradiViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEBDA7EB1B816915004E3EAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEBDA7F81B816916004E3EAB /* Main.storyboard in Resources */,
+				BEBDA7FD1B816916004E3EAB /* LaunchScreen.xib in Resources */,
+				BEBDA7FA1B816916004E3EAB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEBDA8001B816916004E3EAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEBDA7E91B816915004E3EAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEBDA7F51B816916004E3EAB /* ViewController.swift in Sources */,
+				BEBDA7F31B816916004E3EAB /* AppDelegate.swift in Sources */,
+				BEBDA8131B816939004E3EAB /* GradientView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEBDA7FE1B816916004E3EAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEBDA8091B816916004E3EAB /* GradiViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEBDA8041B816916004E3EAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEBDA7EC1B816915004E3EAB /* GradiView */;
+			targetProxy = BEBDA8031B816916004E3EAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BEBDA7F61B816916004E3EAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEBDA7F71B816916004E3EAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEBDA7FB1B816916004E3EAB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEBDA7FC1B816916004E3EAB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEBDA80A1B816916004E3EAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BEBDA80B1B816916004E3EAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEBDA80D1B816916004E3EAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GradiView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BEBDA80E1B816916004E3EAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GradiView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BEBDA8101B816916004E3EAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GradiViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GradiView.app/GradiView";
+			};
+			name = Debug;
+		};
+		BEBDA8111B816916004E3EAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GradiViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GradiView.app/GradiView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEBDA7E81B816915004E3EAB /* Build configuration list for PBXProject "GradiView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEBDA80A1B816916004E3EAB /* Debug */,
+				BEBDA80B1B816916004E3EAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEBDA80C1B816916004E3EAB /* Build configuration list for PBXNativeTarget "GradiView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEBDA80D1B816916004E3EAB /* Debug */,
+				BEBDA80E1B816916004E3EAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BEBDA80F1B816916004E3EAB /* Build configuration list for PBXNativeTarget "GradiViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEBDA8101B816916004E3EAB /* Debug */,
+				BEBDA8111B816916004E3EAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEBDA7E51B816915004E3EAB /* Project object */;
+}
